@@ -11,12 +11,14 @@
 
 <body>
     <div class="container">
-        <h1>ToDo List</h1>
-
-        <input type="text" value="" placeholder="テキストを入力" id="todo">
-        <input type="button" value="保存" id="save" onclick="addCount()">
-
-        <ul id="list"></ul>
+        <h1>ToDoList</h1>
+        <form>
+            <input class="task-value" type="text">
+            <button class="task-submit" type="button">保存</button>
+        </form>
+        <div class="table">
+            <ul class="task-list"></ul>
+        </div>
     </div>
 
     <script src="./script.js"></script>

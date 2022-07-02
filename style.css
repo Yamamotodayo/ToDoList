@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table {
+    height: auto;
+}
+
+.task-list {
+    background: rgb(252, 108, 108);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+    background: rgb(255, 255, 255);
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+li button {
+    text-align: right;
+}
+
+ul {
+    padding: 0;
+}
